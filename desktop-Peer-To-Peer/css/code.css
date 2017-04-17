@@ -1,0 +1,85 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    -webkit-user-select: none;
+    overflow-x: hidden;
+
+}
+
+
+::-webkit-scrollbar {
+        background-color: #ffffff;
+        width: 0.8vw;
+        border-radius: 0.5vw;
+        opacity: .4;
+
+}
+
+::-webkit-scrollbar-thumb:window-inactive,
+::-webkit-scrollbar-thumb {
+        background:  rgba(51, 51, 51, 0.1);
+        border-radius:  0.5vw;
+}
+
+
+
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Comfortaa'), local('Comfortaa-Regular'), url(../fonts/Comfortaa-Regular.ttf) format('woff2');
+}
+
+p {
+
+     margin-top: -2vh;
+     text-align: center;
+     font-family: 'Comfortaa';
+     color: rgb(51,51,51);
+     font-size: 10vh;
+
+}
+
+img {
+
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 5%;
+        -webkit-user-select: none;
+
+}
+
+#logoName {
+
+
+      font-size: 8vh;
+
+}
+
+*:focus {
+
+        outline: none;
+
+}
+
+a {
+
+    text-decoration: none;
+    color: #4cbbd6;
+    font-size: 2vw;
+    font-family: 'Comfortaa';
+    text-align: center;
+    margin-left: 50%;
+}
+
+a:active {
+
+        color: rgba(76, 187, 214, 0.5);
+
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Chativate",
+  "version": "0.1.0",
+  "main": "main.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "ngrok": "^2.2.6",
+    "socket.io": "^1.7.3"
+  },
+  "devDependencies": {}
+}
